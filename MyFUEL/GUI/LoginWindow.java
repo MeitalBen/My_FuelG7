@@ -15,7 +15,7 @@ public class LoginWindow extends JFrame {
 		btnRegisterUser.setFont(new Font("Segoe UI Semilight", Font.BOLD, 11));
 		btnRegisterUser.setForeground(new Color(0, 0, 204));
 		btnRegisterUser.setBackground(new Color(0, 0, 204));
-		btnRegisterUser.setBounds(69, 84, 111, 31);
+		btnRegisterUser.setBounds(69, 97, 111, 31);
 		getContentPane().add(btnRegisterUser);
 		
 		JButton btnUnregisterUser = new JButton("Un-register User");
@@ -23,7 +23,7 @@ public class LoginWindow extends JFrame {
 		btnUnregisterUser.setFont(new Font("Segoe UI Symbol", Font.BOLD, 11));
 		btnUnregisterUser.setForeground(new Color(0, 0, 204));
 		btnUnregisterUser.setBackground(new Color(0, 0, 204));
-		btnUnregisterUser.setBounds(230, 84, 133, 31);
+		btnUnregisterUser.setBounds(228, 97, 133, 31);
 		getContentPane().add(btnUnregisterUser);
 		
 		JLabel label = new JLabel("Choose uesr type pless");
