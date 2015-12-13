@@ -10,7 +10,7 @@ public class LoginWindow extends JFrame {
 	public LoginWindow() {
 		getContentPane().setForeground(new Color(0, 0, 0));
 		getContentPane().setFont(new Font("Segoe UI Symbol", Font.BOLD, 14));
-		getContentPane().setBackground(new Color(0, 204, 102));
+		getContentPane().setBackground(new Color(204, 0, 153));
 		getContentPane().setLayout(null);
 		btnRegisterUser.setFont(new Font("Segoe UI Semilight", Font.BOLD, 11));
 		btnRegisterUser.setForeground(new Color(0, 0, 204));
